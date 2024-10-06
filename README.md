@@ -6,7 +6,7 @@ Part of the Apart research hackathon.
 
 ## Project Overview
 
-This project focuses on ensuring the safety of AI agents by dynamically assessing risk levels associated with their actions. Using a combination of natural language processing and symbolic reasoning through ontologies, this project builds a safety framework that allows agents to be flexible while adhering to strict security protocols. The system leverages real-time ontology updates and a visual representation of the agent's decision-making process for enhanced interpretability.
+This project focuses on ensuring the safety of AI agents by dynamically assessing risk levels associated with their actions. Using a combination of natural language processing and symbolic reasoning through ontologies, this project builds a safety framework that allows agents to be flexible while adhering to strict security protocols. The system leverages real-time ontology updates and a visual representation of the agent's decision-making process for enhanced interpretability. One of the most obvious limitations due to time in this hackathon is in the automatic formatting of the string names for the ontology. This can be fixed however and would be more precise if integrating a more advanced model too.
 
 ### Key Components
 1. **AI Agent (`ai_agent.py`)**: Uses a GPT-2 model to interpret user inputs and generate structured actions.
