@@ -1,4 +1,4 @@
-# Dynamic Risk Assessment in Autonomous Agents Using Ontologies and AI: Agent Safety through Real-Time Decision Support
+# Dynamic Risk Assessment in Autonomous Agents Using Ontologies and AI
 
 In this project I looked to implement dynamic safety checks for AI agents using ontology-based reasoning. The tool ensures that AI agents interact safely by performing real-time risk assessments based on their actions and continuously updating an ontology that represents agent capabilities, tools, and associated risks. The approach was inspired by the vast research emerging that looks at the opportunities in unifying symbolic reasoning approaches and LLMs, especially the paper "Unifying Large Language Models and Knowledge Graphs: A Roadmap" by Pan, Luo 2023. The interpretability innate to knowledge graphs and ontology based systems provided an opportunity to create a meaningful security layer for an AI agent.
 
