@@ -35,7 +35,3 @@ This project focuses on ensuring the safety of AI agents by dynamically assessin
 - `neo4j_integration.py`: Integrates the ontology with Neo4j for visualization purposes.
 - `agent-ontology.owx`: The OWL-based ontology that represents agents, capabilities, tools, and risks.
 - `ontology_visualization.html`: HTML file to visualize the ontology.
-
-## Contributing
-
-Feel free to submit a pull request if you'd like to contribute. Please ensure your changes align with the project's goals of improving AI agent safety.
