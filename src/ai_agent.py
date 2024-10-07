@@ -5,12 +5,12 @@ import json
 import re
 import urllib.parse
 
-# Initialize the model and tokenizer (using a larger GPT-2 model)
+# Initialize the model and tokeniser (using a GPT-2 model)
 model_name = "gpt2-medium"
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
-# If you have a GPU and want to use it (only if CUDA is available)
+# If wanting to use GPU 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model = model.to(device)
 
@@ -82,7 +82,7 @@ def parse_ai_output(ai_interpretation, user_input):
     return parsed_output
 
 def ai_agent_action(user_input):
-    interpretation_prompt = f"""Analyze the following action and provide a structured response:
+    interpretation_prompt = f"""Analyse the following action and provide a structured response:
 Action: {user_input}
 
 You must respond using EXACTLY this format, replacing the text in brackets with your analysis:
