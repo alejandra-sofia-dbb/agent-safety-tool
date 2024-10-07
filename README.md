@@ -34,4 +34,4 @@ This project focuses on ensuring the safety of AI agents by dynamically assessin
 - `ontology_server.py`: Manages the ontology and risk assessments.
 - `neo4j_integration.py`: Integrates the ontology with Neo4j for visualization purposes.
 - `agent-ontology.owx`: The OWL-based ontology that represents agents, capabilities, tools, and risks.
-- `ontology_visualization.html`: HTML file to visualize the ontology.
+- `ontology_visualization.html`: HTML file to visualise the ontology.
