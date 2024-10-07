@@ -11,7 +11,7 @@ CORS(app)
 # Set up logging
 logging.basicConfig(level=logging.DEBUG)
 
-# Path to your ontology file
+# Path to the ontology file
 ONTOLOGY_FILE = "agent-ontology.owx"
 
 # Load the existing ontology or create a new one if it doesn't exist
